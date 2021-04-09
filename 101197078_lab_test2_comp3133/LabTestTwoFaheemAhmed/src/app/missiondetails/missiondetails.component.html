@@ -1,0 +1,23 @@
+<h1>SpaceX Mission Details</h1>
+<div>
+    <figure>
+        <img src="{{data.links.mission_patch_small}}" alt="{{data.rocket.rocket_name}}">
+    </figure>
+    <span>
+    <h2>Mission: {{data.mission_name}}</h2>
+    <h4>Name:{{data.mission_name}} </h4>
+    <h4>Launch Year: {{data.launch_year}}</h4>
+    <h2>Rocket</h2>
+    <h4>Rocket Name: {{data.rocket.rocket_name}}</h4>
+    <h4>Type: {{data.rocket.rocket_type}}</h4>>
+    <h2>Launch Site</h2>
+    <h4>Name: {{data.launch_site.site_name_long}}</h4>
+    </span>
+    <h2>Launch Details</h2>
+    <h4>{{data.details}}</h4>
+    <h2>More Details:</h2>
+    <h4>Success: {{data.launch_success}}</h4>
+    <h4>Date and Time: {{data.launch_date_local}}</h4>
+
+     
+</div>
